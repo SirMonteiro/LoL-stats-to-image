@@ -8,7 +8,7 @@ from flask import Flask
 from threading import Thread, Timer
 
 # Flask initialization
-app = Flask(__name__, static_url_path='/static')
+app = Flask(__name__, static_url_path='/')
 
 @app.route('/')
 def hello():
@@ -67,7 +67,7 @@ def updatestats():
     d.text((100,70), img_strgs.get('4'), font=font, fill=(255,255,255))
 
     # Save image
-    img.save('./static/summoner_stats.png')
+    img.save('./summoner_stats.png')
 
     # Update every 30 seconds
     time.sleep(30)
