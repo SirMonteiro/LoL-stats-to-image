@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import requests
 from math import floor
 import time
-from flask import Flask
+#from flask import Flask
 from threading import Thread, Timer
 
 # Flask initialization
