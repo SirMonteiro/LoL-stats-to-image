@@ -12,7 +12,7 @@ app = Flask(__name__, static_url_path='/static')
 
 @app.route('/')
 def hello():
-    return ''
+    return 'App is running!'
 
 # Riot global Variables
 lol_api_key = 'RGAPI-4b400f65-9d06-4666-9ea3-3c2821e36a87'
