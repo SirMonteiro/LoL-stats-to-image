@@ -15,7 +15,7 @@ from threading import Thread, Timer
 #     return 'App is running!'
 
 # Riot global Variables
-lol_api_key = 'RGAPI-4b400f65-9d06-4666-9ea3-3c2821e36a87'
+lol_api_key = 'RGAPI-411683ad-be21-4aa6-bea7-51105194705c'
 lol = LolWatcher(lol_api_key)
 lol_region = 'br1'
 lol_summonernick = 'SirMonteiro007'
