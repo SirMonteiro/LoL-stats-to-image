@@ -1,3 +1,7 @@
+python-dotenv
 riotwatcher
-pillow
 requests
+pillow
+flask
+gunicorn
+gevent
