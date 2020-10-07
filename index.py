@@ -8,11 +8,11 @@ from flask import Flask
 from threading import Thread, Timer
 
 # Flask initialization
-app = Flask(__name__, static_url_path='/')
+# app = Flask(__name__, static_url_path='/')
 
-@app.route('/')
-def hello():
-    return 'App is running!'
+# @app.route('/')
+# def hello():
+#     return 'App is running!'
 
 # Riot global Variables
 lol_api_key = 'RGAPI-4b400f65-9d06-4666-9ea3-3c2821e36a87'
@@ -75,6 +75,7 @@ def updatestats():
 
 
 # Initialize all functions
-if __name__ == '__main__':
-    Thread(target = updatestats).start()
-    Thread(target = app.run(port=80, threaded=True)).start()
+# if __name__ == '__main__':
+#     Thread(target = updatestats).start()
+#     Thread(target = app.run(port=80, threaded=True)).start()
+updatestats()
